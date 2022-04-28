@@ -5,7 +5,10 @@ import java.util.Objects;
 
 /**
  * A pair of two values, a left and a right.
- * 
+ *
+ * @param <L> The left type
+ * @param <R> The right type
+ *
  * The identical class (source identical) is vended as two versions:
  * <p>
  * {@link so.dang.cool.Pair} and the {@link #getLeft()} and {@link #getRight()}
@@ -29,15 +32,9 @@ public class Pair<L, R> implements Serializable {
     private static final long serialVersionUID = 6035080875813945322L;
 
     /**
-     * 
      * Make a Pair of things.
-     * @param <L> The left type
-     * @param <R> The right type
      * @param left The left thing
      * @param right The right thing
-     * 
-     * @param left
-     * @param right
      */
     public Pair(L left, R right) {
         this.left = left;
