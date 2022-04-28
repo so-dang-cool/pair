@@ -11,11 +11,11 @@ import java.util.Objects;
  *
  * The identical class (source identical) is vended as two versions:
  * <p>
- * {@link so.dang.cool.Pair} and the {@link #getLeft()} and {@link #getRight()}
+ * {@link so.dang.cool.Pair} and its {@link #getLeft()} and {@link #getRight()}
  * methods are fine to use forever. (Although, I'd recommend an immutable type
- * instead if you can get/make it,)
+ * instead if you can get/make it, and to give better context than left/right)
  * <p>
- * {@link javafx.util.Pair} and the {@link #getLeft()} and {@link #getRight()}
+ * {@link javafx.util.Pair} and its {@link #getLeft()} and {@link #getRight()}
  * methods are a band-aid for {@code ClassNotFoundException} errors encountered
  * when upgrading to JDK 11 or higher.
  * <p>
@@ -30,6 +30,9 @@ import java.util.Objects;
  */
 public class Pair<L, R> implements Serializable {
     private static final long serialVersionUID = 6035080875813945322L;
+
+    private L left;
+    private R right;
 
     /**
      * Make a Pair of things.
@@ -47,15 +50,11 @@ public class Pair<L, R> implements Serializable {
      * @param <R> The right type
      * @param left The left thing
      * @param right The right thing
-     * @return
+     * @return a new Pair
      */
     public static final <L, R> Pair<L, R> of(L left, R right) {
         return new Pair<>(left, right);
     }
-
-    private L left;
-
-    private R right;
 
     /**
      * Get the left value.
