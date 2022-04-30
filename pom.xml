@@ -28,6 +28,12 @@
     </developer>
   </developers>
 
+  <scm>
+    <connection>scm:git:git://github.com/hiljusti/pair.git</connection>
+    <developerConnection>scm:git:ssh://github.com:hiljusti/pair.git</developerConnection>
+    <url>http://github.com/hiljusti/pair/tree/core</url>
+  </scm>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <!-- While the idea is to support a JDK 11 and higher runtime environment,
