@@ -2,6 +2,10 @@
 [![Javadoc](https://javadoc.io/badge2/so.dang.cool/pair/javadoc.svg)](https://javadoc.io/doc/so.dang.cool/pair)
 ![License](https://img.shields.io/github/license/hiljusti/pair)
 
+![GitHub repo size](https://img.shields.io/github/repo-size/hiljusti/pair)
+![jar size](https://img.shields.io/badge/jar_size-5.2_kB-blue)
+![dependency count](https://img.shields.io/badge/dependencies-0-blue)
+
 # Pair
 
 A simple pair and drop-in shim for the beloved `javafx.util.Pair` that was
