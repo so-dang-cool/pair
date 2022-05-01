@@ -1,3 +1,7 @@
+[![Maven Central](https://img.shields.io/maven-central/v/so.dang.cool/pair.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22so.dang.cool%22%20AND%20a:%22pair%22)
+[![Javadoc](https://javadoc.io/badge2/so.dang.cool/pair/javadoc.svg)](https://javadoc.io/doc/so.dang.cool/pair)
+![License](https://img.shields.io/github/license/hiljusti/pair)
+
 # Pair
 
 A simple pair and drop-in shim for the beloved `javafx.util.Pair` that was
