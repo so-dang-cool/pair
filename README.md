@@ -16,7 +16,8 @@ included in JDK 8. (And is still available in the [JavaFX project](https://openj
 
 Note: The shim provided here is not exactly-equal (e.g. the hashCode() is not
 hand-written), but _is_ equivalent in the sense that it has the same package
-path, class, method names, and behavior as the prior class.
+path, class, method names, and behavior as the prior class. For reference,
+[javadocs for the original](https://docs.oracle.com/javase/8/javafx/api/javafx/util/Pair.html).
 
 ---
 
